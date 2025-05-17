@@ -9,7 +9,7 @@
 ## AIM
 To simulate signal sampling using three different methods:
 
-Impulse Sampling
+Ideal Sampling
 
 Natural Sampling
 
@@ -21,7 +21,7 @@ Python with libraries: NumPy, Matplotlib
 MATLAB
 
 ## ALGORITHMS
-i) Impulse Sampling
+i) Ideal Sampling
 
 Define the input signal x(t).
 
@@ -59,7 +59,7 @@ Hold the sampled value constant for duration τ.
 
 
 
-## Impulse sampling code:
+## Ideal sampling code:
 
 import numpy as np
 
@@ -329,7 +329,7 @@ plt.show()
 ## RESULT / CONCLUSION
 The simulation successfully demonstrates three types of signal sampling.
 
-Impulse Sampling gives exact values at discrete time intervals but is idealized.
+Ideal Sampling gives exact values at discrete time intervals but is idealized.
 
 Natural Sampling reflects the analog nature by allowing pulse width but may distort shape.
 
